@@ -1,0 +1,8 @@
+τ = 65536, 150 Bahnen je A
+   A  P(G2 versagt)  mittl. Anteil unruhig
+ 6.0          0.107                  0.012
+ 7.0          0.020                  0.003
+ 8.0          0.000                  0.000
+
+(G3): β = sup_t |Y_t − Y_0|²/max(t,1) über [0, τ], Schranke B ≤ 1 + log₂(4β)
+  β: Median 13.71, 99 % 37.41, Max 42.32;  B-Schranke: Mittel 6.75, 99 % 8.23, Max 8.40

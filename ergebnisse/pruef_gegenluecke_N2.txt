@@ -1,0 +1,5 @@
+geschlossene Geschichten: 154455, Z_N = 63107.185790
+Lücken-Konfigurationen mit nu > 0: 86676, |nu| = 0.049726
+größter relativer Fehler nu(O) gegen f(O) Gamma(O): 5.23e-16
+|Gamma| = 0.265460 (davon auf dem Träger von nu: 0.108488),  |nu| = 0.049726
+zweites Moment int f^2 dGamma = 0.023395;  Cauchy-Schwarz: |nu|^2/int f^2 = 0.105692 <= |Gamma| = 0.265460

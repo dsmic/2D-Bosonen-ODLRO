@@ -1,0 +1,5 @@
+Gitter 6×4, Zellen 2×2 (3×2), N=6, S=8, w=2, lam=0.7, beta=0, Abweg=zellgewicht, Querschritt=False, locker=True, Züge [(0, 0), (1, 0), (2, 0), (0, 1), (1, 1), (2, 1)]; q0 = |µ| = 0.794471  [Aufbau 43 s]
+   ... Proben 2000, |ν| = 0.7825 ± 0.0092, E[f|ang.] = 44.07 ± 4.1, Ausbeute = 0.0178 ± 0.0017 = (0.022 ± 0.002)·q0  (max f = 4.68e+03, Median f = 12.4)  [480 s]
+   ... Proben 4000, |ν| = 0.7825 ± 0.0065, E[f|ang.] = 42.8 ± 2.7, Ausbeute = 0.0183 ± 0.0012 = (0.023 ± 0.001)·q0  (max f = 4.68e+03, Median f = 12.1)  [1012 s]
+  mc: Proben 4339, |ν| = 0.7824 ± 0.0063, E[f|ang.] = 43.03 ± 2.6, Ausbeute = 0.0182 ± 0.0011 = (0.023 ± 0.001)·q0  (max f = 4.68e+03, Median f = 12)  [1080 s]
+     verworfen: ab: Weg (Querschritt) 466, ab: Weg (d=0) 356, auf: Brücke 122

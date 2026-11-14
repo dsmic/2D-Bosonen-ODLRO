@@ -1,0 +1,21 @@
+Gitter 6×4, Zellen 6×2 (1×2), N=6 (m = 3.00 je Zelle), S=8, w=3, lam=0.7, Abweg=ball R=3, Querschritt=True, locker=True, Züge [(0, 0), (0, 1)]  [Aufbau 25 s]
+   .. Proben 1000, angenommen 695, |ν| = 0.6950, ∫f² = |ν|·E[f] = 5.958 (E[f|ang.] = 8.573 ± 0.87), Prüffehler Σ_K f_K gegen f = 7.9e-16  [576 s]
+       K = 1: Anteil A(K)/∫f² = 0.2777 ± 0.0261;  Fortsetzung A(>K)/A(≥K) = 0.7223
+       K = 2: Anteil A(K)/∫f² = 0.3180 ± 0.0439;  Fortsetzung A(>K)/A(≥K) = 0.5598
+       K = 3: Anteil A(K)/∫f² = 0.2162 ± 0.0525;  Fortsetzung A(>K)/A(≥K) = 0.4653
+       K = 4: Anteil A(K)/∫f² = 0.1881 ± 0.0213;  Fortsetzung A(>K)/A(≥K) = 0.0000
+   .. Proben 2000, angenommen 1398, |ν| = 0.6990, ∫f² = |ν|·E[f] = 6.481 (E[f|ang.] = 9.272 ± 0.77), Prüffehler Σ_K f_K gegen f = 7.9e-16  [1045 s]
+       K = 1: Anteil A(K)/∫f² = 0.2883 ± 0.0265;  Fortsetzung A(>K)/A(≥K) = 0.7117
+       K = 2: Anteil A(K)/∫f² = 0.2936 ± 0.0344;  Fortsetzung A(>K)/A(≥K) = 0.5875
+       K = 3: Anteil A(K)/∫f² = 0.2006 ± 0.0295;  Fortsetzung A(>K)/A(≥K) = 0.5201
+       K = 4: Anteil A(K)/∫f² = 0.2175 ± 0.0254;  Fortsetzung A(>K)/A(≥K) = 0.0000
+   .. Proben 3000, angenommen 2092, |ν| = 0.6973, ∫f² = |ν|·E[f] = 6.423 (E[f|ang.] = 9.211 ± 0.81), Prüffehler Σ_K f_K gegen f = 7.9e-16  [1345 s]
+       K = 1: Anteil A(K)/∫f² = 0.2769 ± 0.0201;  Fortsetzung A(>K)/A(≥K) = 0.7231
+       K = 2: Anteil A(K)/∫f² = 0.2997 ± 0.0311;  Fortsetzung A(>K)/A(≥K) = 0.5855
+       K = 3: Anteil A(K)/∫f² = 0.1989 ± 0.0277;  Fortsetzung A(>K)/A(≥K) = 0.5303
+       K = 4: Anteil A(K)/∫f² = 0.2245 ± 0.0329;  Fortsetzung A(>K)/A(≥K) = 0.0000
+  mc: Proben 3321, angenommen 2312, |ν| = 0.6962, ∫f² = |ν|·E[f] = 6.337 (E[f|ang.] = 9.102 ± 0.74), Prüffehler Σ_K f_K gegen f = 7.9e-16  [1440 s]
+       K = 1: Anteil A(K)/∫f² = 0.2796 ± 0.0189;  Fortsetzung A(>K)/A(≥K) = 0.7204
+       K = 2: Anteil A(K)/∫f² = 0.2983 ± 0.0287;  Fortsetzung A(>K)/A(≥K) = 0.5860
+       K = 3: Anteil A(K)/∫f² = 0.2019 ± 0.0257;  Fortsetzung A(>K)/A(≥K) = 0.5218
+       K = 4: Anteil A(K)/∫f² = 0.2203 ± 0.0303;  Fortsetzung A(>K)/A(≥K) = 0.0000

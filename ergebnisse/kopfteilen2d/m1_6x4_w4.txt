@@ -1,0 +1,13 @@
+Gitter 6×4, Zellen 2×2 (3×2), N=6 (m = 1.00 je Zelle), S=8, w=4, lam=0.7, Abweg=ball R=3, Querschritt=True, locker=True, Züge [(0, 0), (1, 0), (2, 0), (0, 1), (1, 1), (2, 1)]  [Aufbau 31 s]
+   .. Proben 1000, angenommen 598, |ν| = 0.5980, ∫f² = |ν|·E[f] = 4.534 (E[f|ang.] = 7.582 ± 1.1), Prüffehler Σ_K f_K gegen f = 1.2e-15  [836 s]
+       K = 1: Anteil A(K)/∫f² = 0.3904 ± 0.0388;  Fortsetzung A(>K)/A(≥K) = 0.6096
+       K = 2: Anteil A(K)/∫f² = 0.2536 ± 0.0374;  Fortsetzung A(>K)/A(≥K) = 0.5839
+       K = 3: Anteil A(K)/∫f² = 0.2162 ± 0.0778;  Fortsetzung A(>K)/A(≥K) = 0.3926
+       K = 4: Anteil A(K)/∫f² = 0.0932 ± 0.0205;  Fortsetzung A(>K)/A(≥K) = 0.3331
+       K = 5: Anteil A(K)/∫f² = 0.0465 ± 0.0110;  Fortsetzung A(>K)/A(≥K) = 0.0000
+  mc: Proben 1775, angenommen 1064, |ν| = 0.5994, ∫f² = |ν|·E[f] = 4.098 (E[f|ang.] = 6.836 ± 0.64), Prüffehler Σ_K f_K gegen f = 1.2e-15  [1441 s]
+       K = 1: Anteil A(K)/∫f² = 0.4129 ± 0.0296;  Fortsetzung A(>K)/A(≥K) = 0.5871
+       K = 2: Anteil A(K)/∫f² = 0.2544 ± 0.0256;  Fortsetzung A(>K)/A(≥K) = 0.5668
+       K = 3: Anteil A(K)/∫f² = 0.1949 ± 0.0498;  Fortsetzung A(>K)/A(≥K) = 0.4142
+       K = 4: Anteil A(K)/∫f² = 0.0899 ± 0.0138;  Fortsetzung A(>K)/A(≥K) = 0.3480
+       K = 5: Anteil A(K)/∫f² = 0.0480 ± 0.0076;  Fortsetzung A(>K)/A(≥K) = 0.0000

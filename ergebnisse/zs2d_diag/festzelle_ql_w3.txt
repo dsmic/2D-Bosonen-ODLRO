@@ -1,0 +1,3 @@
+Gitter 4×4, Zellen 2×2 (2×2), N=4, S=8, w=3, lam=0.7, beta=0, Abweg=festzelle, Querschritt=True, locker=True, Züge [(0, 0), (1, 0), (0, 1), (1, 1)]; q0 = |µ| = 0.828307  [Aufbau 0 s]
+  mc: Proben 600, |ν| = 0.6883 ± 0.0189, E[f|ang.] = 121.1 ± 23, Ausbeute = 0.0057 ± 0.0011 = (0.007 ± 0.001)·q0  (max f = 7.14e+03, Median f = 20.4)  [43 s]
+     verworfen: ab: Weg (Querschritt) 183, ab: kein Zug ausführbar 4

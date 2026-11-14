@@ -1,0 +1,50 @@
+== python3 pruef_lochstueck.py --N 3 --beta 4 --w 2 --lam 0.7
+L = 6, N = 3, beta = 4, w = 2, lam = 0.7
+geschlossene Geschichten: 65542, Z_N = 4609.329028
+Lücken-Geschichten mit nu > 0: 45588, |nu| = 0.033047
+verworfen in Scheibe 0 (Schwanz-Stück nicht regulär): 0.272868;  verworfen mangels Kandidaten oder Brücken: 0.694085;  Summe mit |nu|: 1.000000
+größter relativer Fehler nu(O) gegen f(O) Gamma(O): 4.98e-16
+|Gamma| = 1.143332,  |nu| = 0.033047
+zweites Moment int f^2 dGamma = 0.013851;  Cauchy-Schwarz: |nu|^2/int f^2 = 0.078848 <= |Gamma| = 1.143332
+Dichteformel exakt bestätigt
+
+== python3 pruef_lochstueck.py --N 3 --beta 4 --w 3 --lam 0.7
+L = 6, N = 3, beta = 4, w = 3, lam = 0.7
+geschlossene Geschichten: 65542, Z_N = 4609.329028
+Lücken-Geschichten mit nu > 0: 16863, |nu| = 0.006627
+verworfen in Scheibe 0 (Schwanz-Stück nicht regulär): 0.272868;  verworfen mangels Kandidaten oder Brücken: 0.720505;  Summe mit |nu|: 1.000000
+größter relativer Fehler nu(O) gegen f(O) Gamma(O): 4.98e-16
+|Gamma| = 0.860597,  |nu| = 0.006627
+zweites Moment int f^2 dGamma = 0.001676;  Cauchy-Schwarz: |nu|^2/int f^2 = 0.026204 <= |Gamma| = 0.860597
+Dichteformel exakt bestätigt
+
+== python3 pruef_lochstueck.py --N 4 --beta 4 --w 2 --lam 0.7
+L = 6, N = 4, beta = 4, w = 2, lam = 0.7
+geschlossene Geschichten: 14163, Z_N = 1509.713558
+Lücken-Geschichten mit nu > 0: 52032, |nu| = 0.082909
+verworfen in Scheibe 0 (Schwanz-Stück nicht regulär): 0.173476;  verworfen mangels Kandidaten oder Brücken: 0.743616;  Summe mit |nu|: 1.000000
+größter relativer Fehler nu(O) gegen f(O) Gamma(O): 5.66e-16
+|Gamma| = 3.490725,  |nu| = 0.082909
+zweites Moment int f^2 dGamma = 0.020352;  Cauchy-Schwarz: |nu|^2/int f^2 = 0.337755 <= |Gamma| = 3.490725
+Dichteformel exakt bestätigt
+
+== python3 pruef_lochstueck.py --N 4 --beta 4 --w 3 --lam 0.9
+L = 6, N = 4, beta = 4, w = 3, lam = 0.9
+geschlossene Geschichten: 14163, Z_N = 6930.334952
+Lücken-Geschichten mit nu > 0: 43752, |nu| = 0.019338
+verworfen in Scheibe 0 (Schwanz-Stück nicht regulär): 0.205380;  verworfen mangels Kandidaten oder Brücken: 0.775282;  Summe mit |nu|: 1.000000
+größter relativer Fehler nu(O) gegen f(O) Gamma(O): 7.46e-16
+|Gamma| = 5.968432,  |nu| = 0.019338
+zweites Moment int f^2 dGamma = 0.001072;  Cauchy-Schwarz: |nu|^2/int f^2 = 0.348793 <= |Gamma| = 5.968432
+Dichteformel exakt bestätigt
+
+== python3 pruef_lochstueck.py --N 2 --beta 4 --w 3 --lam 0.9
+L = 6, N = 2, beta = 4, w = 3, lam = 0.9
+geschlossene Geschichten: 14163, Z_N = 6930.334952
+Lücken-Geschichten mit nu > 0: 54, |nu| = 0.000156
+verworfen in Scheibe 0 (Schwanz-Stück nicht regulär): 0.410760;  verworfen mangels Kandidaten oder Brücken: 0.589084;  Summe mit |nu|: 1.000000
+größter relativer Fehler nu(O) gegen f(O) Gamma(O): 6.52e-16
+|Gamma| = 0.105243,  |nu| = 0.000156
+zweites Moment int f^2 dGamma = 0.000030;  Cauchy-Schwarz: |nu|^2/int f^2 = 0.000801 <= |Gamma| = 0.105243
+Dichteformel exakt bestätigt
+

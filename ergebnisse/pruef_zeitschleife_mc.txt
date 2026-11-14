@@ -1,0 +1,31 @@
+Monte-Carlo-Prüfung der Ausbeute (pruef_zeitschleife_mc.py), 2026-11-10 ~22:40
+
+Validierung gegen exakte Aufzählung (L=6, N=2):
+  frei, w=1:   MC 0,3125 ± 0,0100   exakt 0,3249
+  zelle, w=1:  MC 0,3196 ± 0,0067   exakt 0,3185
+  frei, w=2:   MC 0,3207 ± 0,0244   exakt 0,3400
+Gelockerte Wählbarkeit (Stück endet in der Zelle): Dichteformel exakt, Fehler ≤ 5,9e-16 (pruef_zeitschleife_spiegel_locker.txt)
+
+L=8, N=6, gelockert, 400 Proben:
+  festzelle + Querschritt, w=1:  |ν| = 0,053,  Ausbeute 0,075 ± 0,022   (q0 = 0,335)
+  festzelle + Querschritt, w=2:  nur 1 von 400 angenommen
+  frei, w=1:                     |ν| = 0,145,  Ausbeute 0,157 ± 0,025
+  frei, w=2:                     |ν| = 0,020,  Ausbeute 0,20 ± 0,11
+
+Befund: Im Testmodell ist eine Scheibe nur ein Trotter-Schritt (zwei Halbschritte). Brücken in die Nachbarzelle sind
+dann wegen harter Kerne und fester Bindungsfolge oft unmöglich, und fast alles wird verworfen. Die Ausbeute misst dann
+die Verwerfung, nicht die Spur des Abwegs. Für einen aussagekräftigen Test braucht man Scheiben aus mehreren
+Trotter-Schritten (Brücken, die eine Zelle durchqueren können) und mehr Teilchen je Zelle; die exakte Dichteformel
+muss dann über Transfermatrizen je Scheibe statt über Pfadaufzählung laufen.
+
+Nachtrag ~22:50: Skripte auf Scheiben aus S Halbschritten und Zellen aus c Plätzen verallgemeinert (--S, --zelle).
+  Regression S=2: 0,324916 wie vorher. Dichteformel exakt bei S=4 (L=6, N=2, w=1, festzelle, Querschritt, locker): 8,7e-16.
+L=12, N=6, Zellen zu 3, S=4, β=6, locker, 100 Proben:
+  festzelle + Querschritt: w=1 |ν| = 0,13, Ausbeute 0,026 ± 0,012;  w=2: 0 von 100 angenommen
+  frei:                    w=1 |ν| = 0,24, Ausbeute 0,067 ± 0,028;  w=2 |ν| = 0,02, Ausbeute 0,21 ± 0,16
+  zelle (alt):             w=1 |ν| = 0,29, Ausbeute 0,105 ± 0,033;  w=2 |ν| = 0,11, Ausbeute 0,16 ± 0,06
+Befund: Verwerfungen beherrschen weiter alles. Im Kleinmodell fehlen die Skalentrennungen (viele Teilchen je Zelle,
+Scheibendauer ≫ Zellgröße²); leere Zellen und unerreichbare Brücken lassen fast jeden Schritt scheitern. Ein
+aussagekräftiger Test braucht eine Konstruktion ohne Verwerfung (Zug-Gesetz nur über ausführbare Züge, normiert und in
+der Dichteformel mitgeführt, also die Umwege nachgebildet) und lange Scheiben mit Normierern per dynamischer
+Programmierung statt Pfadaufzählung.

@@ -1,0 +1,18 @@
+C_b = 393, ε_P = 9.17e-04, C_E = 8.18e+05, θ_P = 1.12e-32
+Stufe D (Beweis, C_P = 1):
+  K =  25: n = 2.2e+33, ln(1/p₁) = 1.1e+37, D_c = 6.6e+18, D_K = 1.8e+18, R*″ ≈ 3.8e+19, α ≈ 5e-42, ζ² ≈ 10^-4774
+           C(K) = 1.9e+38  →  c ≈ exp(−2C(K)) = exp(−3.7e+38);   η ≤ 1/4 verlangt ln m ≳ 2C′(K) = 5.0e+38  →  ln ln(1/ρ*) ≈ 5.0e+38
+  K = 100: n = 9.0e+33, ln(1/p₁) = 4.4e+37, D_c = 1.3e+19, D_K = 3.6e+18, R*″ ≈ 7.6e+19, α ≈ 1e-42, ζ² ≈ 10^-4854
+           C(K) = 7.5e+38  →  c ≈ exp(−2C(K)) = exp(−1.5e+39);   η ≤ 1/4 verlangt ln m ≳ 2C′(K) = 2.0e+39  →  ln ln(1/ρ*) ≈ 2.0e+39
+  K = 540: n = 4.8e+34, ln(1/p₁) = 2.4e+38, D_c = 3.1e+19, D_K = 8.4e+18, R*″ ≈ 1.8e+20, α ≈ 2e-43, ζ² ≈ 10^-4952
+           C(K) = 4.0e+39  →  c ≈ exp(−2C(K)) = exp(−8.1e+39);   η ≤ 1/4 verlangt ln m ≳ 2C′(K) = 1.1e+40  →  ln ln(1/ρ*) ≈ 1.1e+40
+Stufe C (Buchführung des Beweises, wahre Eingänge):
+  K =  25: ln(1/ρ*) ≈ e^(2C′(K))/b₋ ≈ 10^1064,  c ≈ 10^-763
+  K = 100: ln(1/ρ*) ≈ e^(2C′(K))/b₋ ≈ 10^3929,  c ≈ 10^-2810
+Stufe B (Methode mit wahren Konstanten, Tutorial §9.3):
+  K =  25, κ₂ scharf e^{0,54K}: ln(1/ρ*) ≈ 10^8.9
+  K =  25, κ₂ grob e^{4πK}: ln(1/ρ*) ≈ 10^139.5
+  K = 100, κ₂ scharf e^{0,54K}: ln(1/ρ*) ≈ 10^27.2
+  K = 100, κ₂ grob e^{4πK}: ln(1/ρ*) ≈ 10^549.5
+Poisson-Vergleich: größtes b₋ mit P(n < 2b₋m) ≤ e^(−b₋m): 0.212
+2D-Bogoliubov, Verarmung 1/ln(1/(ρa²)) bei ρ = 1/16: 0.166

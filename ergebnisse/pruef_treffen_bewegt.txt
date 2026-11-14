@@ -1,0 +1,8 @@
+τ = 6000, p = 0.4, d = 12, Ausbreitung √(pτ) = 49.0;  ln(√(pτ)/d)/ln √(pτ) = 0.361
+  ruhend            P(Treffer) = 0.2308
+  ballistisch       P(Treffer) = 0.6428
+  diffusiv A=1      P(Treffer) = 0.4056
+  diffusiv A=2      P(Treffer) = 0.4947
+  diffusiv A=4      P(Treffer) = 0.6013
+  diffusiv A=8      P(Treffer) = 0.7214
+  Irrfahrt          P(Treffer) Mittel = 0.2548, Streuung = 0.0828, Max = 0.4348 (60 Bahnen)

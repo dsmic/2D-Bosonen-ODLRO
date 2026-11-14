@@ -1,0 +1,3 @@
+L=6 N=2 w=1 lam=0.7 Abweg=frei Querschritt=False Proben=20000: |ν| = 0.1090 ± 0.0022, E[f|ang.] = 0.3488 ± 0.0087, Ausbeute |ν|²/∫f² = 0.3125 ± 0.0100 ≤ q0 = 0.8172   (max f = 1.54)
+L=6 N=2 w=1 lam=0.7 Abweg=zelle Querschritt=False Proben=6000: |ν| = 0.3030 ± 0.0059, E[f|ang.] = 0.9481 ± 0.0073, Ausbeute |ν|²/∫f² = 0.3196 ± 0.0067 ≤ q0 = 0.8172   (max f = 1.80)
+L=6 N=2 w=2 lam=0.7 Abweg=frei Querschritt=False Proben=40000: |ν| = 0.0111 ± 0.0005, E[f|ang.] = 0.0345 ± 0.0021, Ausbeute |ν|²/∫f² = 0.3207 ± 0.0244 ≤ q0 = 0.8172   (max f = 0.29)

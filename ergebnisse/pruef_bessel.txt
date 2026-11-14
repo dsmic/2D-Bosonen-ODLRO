@@ -1,0 +1,14 @@
+(a) g(z) = sqrt(z) e^{-z} I0(z)
+    Höchstwert 0.46882 bei z = 0.790; g(2) = 0.43630; g(1e6) = 0.3989423; 1/sqrt(2π) = 0.3989423
+    ab dem Höchstwert fallend: True; überall ≥ 1/sqrt(2π) ab z = 2: True
+(b)–(d) Quotienten
+    Verletzungen: Log-Konkavität 0, elementares Paar 0, Segura-Paar 0
+(e) q_t(0)
+    q_t(0) ≤ Q(t): True;  q_t(0) ≥ 1/sqrt(4πt) für t ≥ 1: True;  Q(t) ≤ (1+t)^(-1/2): True
+(f) (K1) aus Q(t) und Ũ_j
+    kleinster log-Spielraum 0.00015 bei (t, k) = (0.0001, 0)
+(g) (K2′) aus q_t(0) ≥ 1/sqrt(4πt) und ℓ_j, Faktor e^{-1/4} je Koordinate
+    kleinster log-Spielraum 0.10618 bei (t, k) = (10.03, 10)
+(h) scharfes (K2) über die Segura-Kette q_t(0)·Π L_j (exaktes q_t(0)), nur zur Auskunft
+    kleinster log-Spielraum -0.00090 bei (t, k) = (58.02, 24); negativ heißt: die Kette reicht nicht
+Anhang K, K.1: alle Prüfungen bestanden

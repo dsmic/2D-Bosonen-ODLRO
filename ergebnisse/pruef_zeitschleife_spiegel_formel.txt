@@ -1,0 +1,8 @@
+L=6 N=1 w=1 lam=0.7 Abweg=spiegel: O mit nu>0: 1032, |nu| = 0.090000, ∫f² = 0.013250, |nu|²/∫f² = 0.611302 ≤ q0 = 0.921725
+  Dichteformel Spiegel-Variante: größter relativer Fehler nu(O) gegen f(O) µ(O) = 2.00e-16
+L=6 N=1 w=2 lam=0.7 Abweg=spiegel: O mit nu>0: 1536, |nu| = 0.008100, ∫f² = 0.000079, |nu|²/∫f² = 0.834636 ≤ q0 = 0.921725
+  Dichteformel Spiegel-Variante: größter relativer Fehler nu(O) gegen f(O) µ(O) = 4.01e-16
+L=6 N=2 w=1 lam=0.7 Abweg=spiegel: O mit nu>0: 102354, |nu| = 0.110362, ∫f² = 0.037486, |nu|²/∫f² = 0.324916 ≤ q0 = 0.817206
+  Dichteformel Spiegel-Variante: größter relativer Fehler nu(O) gegen f(O) µ(O) = 4.49e-16
+L=6 N=2 w=2 lam=0.7 Abweg=spiegel: O mit nu>0: 133104, |nu| = 0.011578, ∫f² = 0.000394, |nu|²/∫f² = 0.339998 ≤ q0 = 0.817206
+  Dichteformel Spiegel-Variante: größter relativer Fehler nu(O) gegen f(O) µ(O) = 7.29e-16

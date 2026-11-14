@@ -1,0 +1,6 @@
+gtau_L16_b32_r0.0625_s1.json         L=16 N=16 Blöcke 9593:  Z0 = 1.0011 ± 0.0030   (Rest-Exponent -0.0248)
+gtau_L16_b32_r0.125_s1.json          L=16 N=32 Blöcke 7941:  Z0 = 1.0004 ± 0.0043   (Rest-Exponent -0.0492)
+gtau_L32_b64_r0.0625_s1.json         L=32 N=64 Blöcke  927:  Z0 = 0.9802 ± 0.0128   (Rest-Exponent -0.0175)
+gtau_L32_b64_r0.0625_s2.json         L=32 N=64 Blöcke  881:  Z0 = 0.9894 ± 0.0192   (Rest-Exponent -0.0185)
+gtau_L32_b64_r0.125_s1.json          L=32 N=128 Blöcke   49:  Z0 = 1.0447 ± 0.2191   (Rest-Exponent -0.0332)
+gtau_L32_b64_r0.125_s2.json          L=32 N=128 Blöcke   58:  Z0 = 1.1315 ± 0.2605   (Rest-Exponent -0.0382)

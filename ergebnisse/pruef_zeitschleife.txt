@@ -1,0 +1,7 @@
+offene Konfigurationen mit nu > 0: 177477, |nu| = 0.061889
+größter relativer Fehler nu(O) gegen f(O) µ(O): 4.51e-16
+|nu| = 0.061889, zweites Moment = 0.024837, |nu|²/zweites Moment = 0.154215  ≤  q0 = |µ| = 0.671466
+---
+offene Konfigurationen mit nu > 0: 199944, |nu| = 0.034069
+größter relativer Fehler nu(O) gegen f(O) µ(O): 5.59e-16
+|nu| = 0.034069, zweites Moment = 0.010597, |nu|²/zweites Moment = 0.109532  ≤  q0 = |µ| = 0.846902

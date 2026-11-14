@@ -1,0 +1,11 @@
+
+Teil 3: OAs Umwegverfahren (Lemma S2 seit 2026-11-13 abends), n = 48, W = 96, 40 Skelette je Zeile
+     p  Kuppeln Diag.ringe  Fehler  Länge>Schranke  P(Abw≥1)  P(Abw≥2)  max Abw  mittl. Mehrweg  max Länge/Schranke
+  0.01        0          0       0               0    0.0195    0.0000        1           0.021               1.000
+  0.03        0          0       0               0    0.0453    0.0000        1           0.046               1.000
+  0.06        0          0       0               0    0.1076    0.0000        1           0.074               1.000
+  0.03       20          0       0               0    0.1010    0.0115        3           0.062               1.000
+  0.06       20          0       0               0    0.1414    0.0091        4           0.103               1.000
+  0.03        0         40       0               0    0.1039    0.0000        1           0.043               1.000
+  0.06       20         40       0               0    0.1753    0.0281        4           0.083               1.000
+  Diagonaler Ring (32 Zellen der Größe 1), Strecke von innen nach außen: Komponenten 32, gefüllte Zellen außerhalb des Rings 0, Strecke trifft Ringzellen 1, Weglänge 18 bei d_∞ = 18, Weg in E: True, Fehler: None

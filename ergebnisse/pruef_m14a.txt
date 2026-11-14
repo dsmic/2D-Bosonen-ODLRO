@@ -1,0 +1,20 @@
+L=6 N=1 w=1 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 528, |nu| = 0.009423, ∫f² = 0.000517, |nu|²/∫f² = 0.171747 ≤ q0 = 0.921725
+  Dichteformel Lemma M14a (Schwanz über ξ): größter relativer Fehler nu(O) gegen f(O) µ(O) = 2.94e-16
+L=6 N=1 w=2 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 1056, |nu| = 0.000848, ∫f² = 0.000002, |nu|²/∫f² = 0.332830 ≤ q0 = 0.921725
+  Dichteformel Lemma M14a (Schwanz über ξ): größter relativer Fehler nu(O) gegen f(O) µ(O) = 4.21e-16
+L=6 N=2 w=1 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 54306, |nu| = 0.023629, ∫f² = 0.006145, |nu|²/∫f² = 0.090860 ≤ q0 = 0.817206
+  Dichteformel Lemma M14a (Schwanz über ξ): größter relativer Fehler nu(O) gegen f(O) µ(O) = 4.44e-16
+L=6 N=2 w=2 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 99642, |nu| = 0.002501, ∫f² = 0.000047, |nu|²/∫f² = 0.133883 ≤ q0 = 0.817206
+  Dichteformel Lemma M14a (Schwanz über ξ): größter relativer Fehler nu(O) gegen f(O) µ(O) = 6.49e-16
+L=6 N=2 w=1 lam=0.7 Abweg=spiegel Start=frei Querschritt=True: O mit nu>0: 5706, |nu| = 0.003777, ∫f² = 0.001831, |nu|²/∫f² = 0.007788 ≤ q0 = 0.817206
+  Dichteformel Lemma M14a (Schwanz über ξ): größter relativer Fehler nu(O) gegen f(O) µ(O) = 4.01e-16
+L=6 N=2 w=2 lam=0.7 Abweg=spiegel Start=frei Querschritt=True: O mit nu>0: 576, |nu| = 0.000026, ∫f² = 0.000001, |nu|²/∫f² = 0.000815 ≤ q0 = 0.817206
+  Dichteformel Lemma M14a (Schwanz über ξ): größter relativer Fehler nu(O) gegen f(O) µ(O) = 2.51e-16
+L=8 N=3 w=1 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 3147560, |nu| = 0.028908, ∫f² = 0.015236, |nu|²/∫f² = 0.054848 ≤ q0 = 0.696216
+  Dichteformel Lemma M14a (Schwanz über ξ): größter relativer Fehler nu(O) gegen f(O) µ(O) = 5.68e-16
+L=8 N=3 w=2 lam=0.7 Abweg=spiegel Start=frei Querschritt=True: O mit nu>0: 134196, |nu| = 0.000206, ∫f² = 0.000091, |nu|²/∫f² = 0.000470 ≤ q0 = 0.696216
+  Dichteformel Lemma M14a (Schwanz über ξ): größter relativer Fehler nu(O) gegen f(O) µ(O) = 7.42e-16
+L=8 N=2 w=1 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 143680, |nu| = 0.021860, ∫f² = 0.018608, |nu|²/∫f² = 0.025681 ≤ q0 = 0.756081
+  Dichteformel Lemma M14a (Schwanz über ξ): größter relativer Fehler nu(O) gegen f(O) µ(O) = 3.95e-16
+L=8 N=3 w=2 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 2378924, |nu| = 0.001206, ∫f² = 0.000151, |nu|²/∫f² = 0.009653 ≤ q0 = 0.696216
+  Dichteformel Lemma M14a (Schwanz über ξ): größter relativer Fehler nu(O) gegen f(O) µ(O) = 1.66e-15

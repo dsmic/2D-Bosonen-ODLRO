@@ -1,0 +1,35 @@
+L=6 N=1 w=2 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 1536, |nu| = 0.008100, ∫f² = 0.000079, |nu|²/∫f² = 0.834636 ≤ q0 = 0.921725
+  Dichteformel Spiegel-Variante: größter relativer Fehler nu(O) gegen f(O) µ(O) = 4.01e-16
+  Zerlegung ∫f² = Σ_K A(K), K = Zahl der gemeinsamen Kopflagen von unten (t_0 = Kopf y, …, t_w = Wende); Summe 7.86091e-05 (Kontrolle 7.86091e-05)
+    K = 3: A = 7.86091e-05, Anteil 1.0000
+L=6 N=1 w=3 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 1536, |nu| = 0.000729, ∫f² = 0.000001, |nu|²/∫f² = 0.906634 ≤ q0 = 0.921725
+  Dichteformel Spiegel-Variante: größter relativer Fehler nu(O) gegen f(O) µ(O) = 9.44e-16
+  Zerlegung ∫f² = Σ_K A(K), K = Zahl der gemeinsamen Kopflagen von unten (t_0 = Kopf y, …, t_w = Wende); Summe 5.86169e-07 (Kontrolle 5.86169e-07)
+    K = 4: A = 5.86169e-07, Anteil 1.0000
+L=6 N=2 w=1 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 102354, |nu| = 0.110362, ∫f² = 0.037486, |nu|²/∫f² = 0.324916 ≤ q0 = 0.817206
+  Dichteformel Spiegel-Variante: größter relativer Fehler nu(O) gegen f(O) µ(O) = 4.49e-16
+  Zerlegung ∫f² = Σ_K A(K), K = Zahl der gemeinsamen Kopflagen von unten (t_0 = Kopf y, …, t_w = Wende); Summe 0.0374859 (Kontrolle 0.0374859)
+    K = 1: A = 0.0106655, Anteil 0.2845
+    K = 2: A = 0.0268205, Anteil 0.7155  A(K)/A(K−1) = 2.5147
+L=6 N=2 w=2 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 133104, |nu| = 0.011578, ∫f² = 0.000394, |nu|²/∫f² = 0.339998 ≤ q0 = 0.817206
+  Dichteformel Spiegel-Variante: größter relativer Fehler nu(O) gegen f(O) µ(O) = 5.95e-16
+  Zerlegung ∫f² = Σ_K A(K), K = Zahl der gemeinsamen Kopflagen von unten (t_0 = Kopf y, …, t_w = Wende); Summe 0.000394246 (Kontrolle 0.000394246)
+    K = 1: A = 6.2251e-05, Anteil 0.1579
+    K = 2: A = 8.58403e-05, Anteil 0.2177  A(K)/A(K−1) = 1.3789
+    K = 3: A = 0.000246155, Anteil 0.6244  A(K)/A(K−1) = 2.8676
+L=6 N=2 w=1 lam=0.7 Abweg=spiegel Start=frei Querschritt=True: O mit nu>0: 7146, |nu| = 0.014253, ∫f² = 0.010452, |nu|²/∫f² = 0.019437 ≤ q0 = 0.817206
+  Dichteformel Spiegel-Variante: größter relativer Fehler nu(O) gegen f(O) µ(O) = 3.85e-16
+  Zerlegung ∫f² = Σ_K A(K), K = Zahl der gemeinsamen Kopflagen von unten (t_0 = Kopf y, …, t_w = Wende); Summe 0.0104522 (Kontrolle 0.0104522)
+    K = 2: A = 0.0104522, Anteil 1.0000
+L=6 N=2 w=2 lam=0.7 Abweg=spiegel Start=frei Querschritt=True: O mit nu>0: 1092, |nu| = 0.000097, ∫f² = 0.000004, |nu|²/∫f² = 0.002361 ≤ q0 = 0.817206
+  Dichteformel Spiegel-Variante: größter relativer Fehler nu(O) gegen f(O) µ(O) = 5.02e-16
+  Zerlegung ∫f² = Σ_K A(K), K = Zahl der gemeinsamen Kopflagen von unten (t_0 = Kopf y, …, t_w = Wende); Summe 3.97379e-06 (Kontrolle 3.97379e-06)
+    K = 3: A = 3.97379e-06, Anteil 1.0000
+L=6 N=2 w=3 lam=0.7 Abweg=spiegel Start=frei Querschritt=True: O mit nu>0: 120, |nu| = 0.000001, ∫f² = 0.000000, |nu|²/∫f² = 0.000241 ≤ q0 = 0.817206
+  Dichteformel Spiegel-Variante: größter relativer Fehler nu(O) gegen f(O) µ(O) = 8.02e-16
+  Zerlegung ∫f² = Σ_K A(K), K = Zahl der gemeinsamen Kopflagen von unten (t_0 = Kopf y, …, t_w = Wende); Summe 4.86174e-09 (Kontrolle 4.86174e-09)
+    K = 4: A = 4.86174e-09, Anteil 1.0000
+L=8 N=3 w=2 lam=0.7 Abweg=spiegel Start=frei Querschritt=True: O mit nu>0: 65588, |nu| = 0.000639, ∫f² = 0.000487, |nu|²/∫f² = 0.000838 ≤ q0 = 0.696216
+  Dichteformel Spiegel-Variante: größter relativer Fehler nu(O) gegen f(O) µ(O) = 9.57e-16
+  Zerlegung ∫f² = Σ_K A(K), K = Zahl der gemeinsamen Kopflagen von unten (t_0 = Kopf y, …, t_w = Wende); Summe 0.000487173 (Kontrolle 0.000487173)
+    K = 3: A = 0.000487173, Anteil 1.0000

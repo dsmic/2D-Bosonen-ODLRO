@@ -1,0 +1,12 @@
+L=6 N=2 w=1 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 102354, |nu| = 0.110362, ∫f² = 0.037486, |nu|²/∫f² = 0.324916 ≤ q0 = 0.817206
+L=6 N=2 w=1 lam=0.7 Abweg=spiegel Start=frei Querschritt=True: O mit nu>0: 7146, |nu| = 0.014253, ∫f² = 0.010452, |nu|²/∫f² = 0.019437 ≤ q0 = 0.817206
+L=6 N=2 w=1 lam=0.7 Abweg=spiegel Start=zelle Querschritt=True: O mit nu>0: 942, |nu| = 0.003481, ∫f² = 0.001786, |nu|²/∫f² = 0.006784 ≤ q0 = 0.817206
+L=6 N=2 w=2 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 133104, |nu| = 0.011578, ∫f² = 0.000394, |nu|²/∫f² = 0.339998 ≤ q0 = 0.817206
+L=6 N=2 w=2 lam=0.7 Abweg=spiegel Start=frei Querschritt=True: O mit nu>0: 1092, |nu| = 0.000097, ∫f² = 0.000004, |nu|²/∫f² = 0.002361 ≤ q0 = 0.817206
+(alles verworfen, ν = 0)
+L=6 N=2 w=3 lam=0.7 Abweg=spiegel Start=frei Querschritt=False: O mit nu>0: 136332, |nu| = 0.001229, ∫f² = 0.000005, |nu|²/∫f² = 0.302113 ≤ q0 = 0.817206
+L=6 N=2 w=3 lam=0.7 Abweg=spiegel Start=frei Querschritt=True: O mit nu>0: 120, |nu| = 0.000001, ∫f² = 0.000000, |nu|²/∫f² = 0.000241 ≤ q0 = 0.817206
+(alles verworfen, ν = 0)
+L=6 N=2 w=1 lam=0.7 Abweg=spiegel Start=zelle Querschritt=True: O mit nu>0: 942, |nu| = 0.003481, ∫f² = 0.001786, |nu|²/∫f² = 0.006784 ≤ q0 = 0.817206
+  Dichteformel Spiegel-Variante: größter relativer Fehler nu(O) gegen f(O) µ(O) = 2.16e-16
+(alles verworfen, ν = 0)

@@ -1,0 +1,56 @@
+Gitter 4×4, Zellen 2×2 (2×2), N=8 (m = 2.00 je Zelle), S=8, w=3, lam=0.7, Abweg=ball R=3, Querschritt=True, locker=True, Züge [(0, 0), (1, 0), (0, 1), (1, 1)]  [Aufbau 2 s]
+   .. Proben 1000, angenommen 243, |ν| = 0.2430, ∫f² = |ν|·E[f] = 0.8397 (E[f|ang.] = 3.456 ± 0.53), Prüffehler Σ_K f_K gegen f = 5.7e-16  [152 s]
+       K = 1: Anteil A(K)/∫f² = 0.4225 ± 0.0490;  Fortsetzung A(>K)/A(≥K) = 0.5775
+       K = 2: Anteil A(K)/∫f² = 0.3445 ± 0.0838;  Fortsetzung A(>K)/A(≥K) = 0.4035
+       K = 3: Anteil A(K)/∫f² = 0.1485 ± 0.0375;  Fortsetzung A(>K)/A(≥K) = 0.3626
+       K = 4: Anteil A(K)/∫f² = 0.0845 ± 0.0253;  Fortsetzung A(>K)/A(≥K) = -0.0000
+   .. Proben 2000, angenommen 496, |ν| = 0.2480, ∫f² = |ν|·E[f] = 0.9474 (E[f|ang.] = 3.82 ± 0.46), Prüffehler Σ_K f_K gegen f = 5.7e-16  [285 s]
+       K = 1: Anteil A(K)/∫f² = 0.4220 ± 0.0453;  Fortsetzung A(>K)/A(≥K) = 0.5780
+       K = 2: Anteil A(K)/∫f² = 0.3267 ± 0.0511;  Fortsetzung A(>K)/A(≥K) = 0.4347
+       K = 3: Anteil A(K)/∫f² = 0.1662 ± 0.0495;  Fortsetzung A(>K)/A(≥K) = 0.3386
+       K = 4: Anteil A(K)/∫f² = 0.0851 ± 0.0171;  Fortsetzung A(>K)/A(≥K) = -0.0000
+   .. Proben 3000, angenommen 763, |ν| = 0.2543, ∫f² = |ν|·E[f] = 0.9954 (E[f|ang.] = 3.914 ± 0.35), Prüffehler Σ_K f_K gegen f = 5.7e-16  [403 s]
+       K = 1: Anteil A(K)/∫f² = 0.3999 ± 0.0317;  Fortsetzung A(>K)/A(≥K) = 0.6001
+       K = 2: Anteil A(K)/∫f² = 0.3103 ± 0.0372;  Fortsetzung A(>K)/A(≥K) = 0.4829
+       K = 3: Anteil A(K)/∫f² = 0.1897 ± 0.0373;  Fortsetzung A(>K)/A(≥K) = 0.3454
+       K = 4: Anteil A(K)/∫f² = 0.1001 ± 0.0150;  Fortsetzung A(>K)/A(≥K) = -0.0000
+   .. Proben 4000, angenommen 1019, |ν| = 0.2547, ∫f² = |ν|·E[f] = 0.9056 (E[f|ang.] = 3.555 ± 0.27), Prüffehler Σ_K f_K gegen f = 5.7e-16  [517 s]
+       K = 1: Anteil A(K)/∫f² = 0.4239 ± 0.0277;  Fortsetzung A(>K)/A(≥K) = 0.5761
+       K = 2: Anteil A(K)/∫f² = 0.3010 ± 0.0311;  Fortsetzung A(>K)/A(≥K) = 0.4776
+       K = 3: Anteil A(K)/∫f² = 0.1812 ± 0.0310;  Fortsetzung A(>K)/A(≥K) = 0.3415
+       K = 4: Anteil A(K)/∫f² = 0.0940 ± 0.0125;  Fortsetzung A(>K)/A(≥K) = -0.0000
+   .. Proben 5000, angenommen 1240, |ν| = 0.2480, ∫f² = |ν|·E[f] = 0.8703 (E[f|ang.] = 3.509 ± 0.23), Prüffehler Σ_K f_K gegen f = 5.7e-16  [638 s]
+       K = 1: Anteil A(K)/∫f² = 0.4381 ± 0.0264;  Fortsetzung A(>K)/A(≥K) = 0.5619
+       K = 2: Anteil A(K)/∫f² = 0.2919 ± 0.0268;  Fortsetzung A(>K)/A(≥K) = 0.4804
+       K = 3: Anteil A(K)/∫f² = 0.1758 ± 0.0263;  Fortsetzung A(>K)/A(≥K) = 0.3488
+       K = 4: Anteil A(K)/∫f² = 0.0942 ± 0.0112;  Fortsetzung A(>K)/A(≥K) = 0.0000
+   .. Proben 6000, angenommen 1499, |ν| = 0.2498, ∫f² = |ν|·E[f] = 0.8618 (E[f|ang.] = 3.449 ± 0.21), Prüffehler Σ_K f_K gegen f = 5.7e-16  [774 s]
+       K = 1: Anteil A(K)/∫f² = 0.4510 ± 0.0246;  Fortsetzung A(>K)/A(≥K) = 0.5490
+       K = 2: Anteil A(K)/∫f² = 0.2863 ± 0.0242;  Fortsetzung A(>K)/A(≥K) = 0.4786
+       K = 3: Anteil A(K)/∫f² = 0.1722 ± 0.0228;  Fortsetzung A(>K)/A(≥K) = 0.3446
+       K = 4: Anteil A(K)/∫f² = 0.0905 ± 0.0100;  Fortsetzung A(>K)/A(≥K) = -0.0000
+   .. Proben 7000, angenommen 1753, |ν| = 0.2504, ∫f² = |ν|·E[f] = 0.8785 (E[f|ang.] = 3.508 ± 0.22), Prüffehler Σ_K f_K gegen f = 5.7e-16  [955 s]
+       K = 1: Anteil A(K)/∫f² = 0.4239 ± 0.0211;  Fortsetzung A(>K)/A(≥K) = 0.5761
+       K = 2: Anteil A(K)/∫f² = 0.3064 ± 0.0308;  Fortsetzung A(>K)/A(≥K) = 0.4682
+       K = 3: Anteil A(K)/∫f² = 0.1767 ± 0.0213;  Fortsetzung A(>K)/A(≥K) = 0.3451
+       K = 4: Anteil A(K)/∫f² = 0.0931 ± 0.0095;  Fortsetzung A(>K)/A(≥K) = -0.0000
+   .. Proben 8000, angenommen 1980, |ν| = 0.2475, ∫f² = |ν|·E[f] = 0.8583 (E[f|ang.] = 3.468 ± 0.2), Prüffehler Σ_K f_K gegen f = 5.7e-16  [1106 s]
+       K = 1: Anteil A(K)/∫f² = 0.4323 ± 0.0204;  Fortsetzung A(>K)/A(≥K) = 0.5677
+       K = 2: Anteil A(K)/∫f² = 0.3029 ± 0.0283;  Fortsetzung A(>K)/A(≥K) = 0.4665
+       K = 3: Anteil A(K)/∫f² = 0.1728 ± 0.0193;  Fortsetzung A(>K)/A(≥K) = 0.3475
+       K = 4: Anteil A(K)/∫f² = 0.0920 ± 0.0087;  Fortsetzung A(>K)/A(≥K) = -0.0000
+   .. Proben 9000, angenommen 2227, |ν| = 0.2474, ∫f² = |ν|·E[f] = 0.8561 (E[f|ang.] = 3.46 ± 0.19), Prüffehler Σ_K f_K gegen f = 5.7e-16  [1249 s]
+       K = 1: Anteil A(K)/∫f² = 0.4407 ± 0.0251;  Fortsetzung A(>K)/A(≥K) = 0.5593
+       K = 2: Anteil A(K)/∫f² = 0.2949 ± 0.0256;  Fortsetzung A(>K)/A(≥K) = 0.4727
+       K = 3: Anteil A(K)/∫f² = 0.1723 ± 0.0180;  Fortsetzung A(>K)/A(≥K) = 0.3482
+       K = 4: Anteil A(K)/∫f² = 0.0921 ± 0.0083;  Fortsetzung A(>K)/A(≥K) = 0.0000
+   .. Proben 10000, angenommen 2440, |ν| = 0.2440, ∫f² = |ν|·E[f] = 0.8377 (E[f|ang.] = 3.433 ± 0.18), Prüffehler Σ_K f_K gegen f = 5.7e-16  [1347 s]
+       K = 1: Anteil A(K)/∫f² = 0.4462 ± 0.0235;  Fortsetzung A(>K)/A(≥K) = 0.5538
+       K = 2: Anteil A(K)/∫f² = 0.2918 ± 0.0238;  Fortsetzung A(>K)/A(≥K) = 0.4732
+       K = 3: Anteil A(K)/∫f² = 0.1707 ± 0.0170;  Fortsetzung A(>K)/A(≥K) = 0.3484
+       K = 4: Anteil A(K)/∫f² = 0.0913 ± 0.0078;  Fortsetzung A(>K)/A(≥K) = 0.0000
+  mc: Proben 10849, angenommen 2648, |ν| = 0.2441, ∫f² = |ν|·E[f] = 0.8266 (E[f|ang.] = 3.387 ± 0.17), Prüffehler Σ_K f_K gegen f = 5.7e-16  [1440 s]
+       K = 1: Anteil A(K)/∫f² = 0.4482 ± 0.0224;  Fortsetzung A(>K)/A(≥K) = 0.5518
+       K = 2: Anteil A(K)/∫f² = 0.2905 ± 0.0223;  Fortsetzung A(>K)/A(≥K) = 0.4736
+       K = 3: Anteil A(K)/∫f² = 0.1687 ± 0.0160;  Fortsetzung A(>K)/A(≥K) = 0.3543
+       K = 4: Anteil A(K)/∫f² = 0.0926 ± 0.0076;  Fortsetzung A(>K)/A(≥K) = 0.0000

@@ -1,0 +1,68 @@
+== python3 pruef_unzugaenglich.py --N 3 --lam 0.7
+L = 6, N = 3, beta = 4, Scheibe = 2 Schritte, lam = 0.7
+geschlossene Geschichten: 65542, Z_N = 4609.329028
+(1) ein Stück:  E[Σ_p 1/a_p] = 4.1340600243 = Σ Z^(p frei)[a>0]/Z_N = 4.1340600243 (relativer Fehler 5.9e-13)  ≤  R1 = Σ Z^(p frei)/Z_N = 9.672064
+(2) Paare:      E[Σ_A 1/Xi_A] = 5.5772215997 = Σ Z^(A frei)[Xi>0]/Z_N = 5.5772215997 (relativer Fehler 2.8e-13)  ≤  R2 = Σ Z^(A frei)/Z_N = 14.937491
+(3) Kippungleichung:
+      q = 0.3:  E[#Stücke mit a < q] = 0.00000 ≤ q·R1 = 2.90162;   E[#Paare, beide a(F_A^c) < q] = 0.00000 ≤ q²·R2 = 1.34437   ok
+      q = 0.5:  E[#Stücke mit a < q] = 0.23752 ≤ q·R1 = 4.83603;   E[#Paare, beide a(F_A^c) < q] = 0.00619 ≤ q²·R2 = 3.73437   ok
+      q = 0.7:  E[#Stücke mit a < q] = 0.72789 ≤ q·R1 = 6.77044;   E[#Paare, beide a(F_A^c) < q] = 0.07900 ≤ q²·R2 = 7.31937   ok
+      q = 0.9:  E[#Stücke mit a < q] = 2.15398 ≤ q·R1 = 8.70486;   E[#Paare, beide a(F_A^c) < q] = 0.43080 ≤ q²·R2 = 12.09937   ok
+(4) Entkopplung: verletzt in 0 Fällen (größte Treffwahrscheinlichkeit h = 0.671)
+      q = 0.3:  E[#Paare, beide stark unzugänglich] = 0.00000 ≤ E[#Paare, a(F_A^c) < q + h] = 0.00725   ok
+      q = 0.5:  E[#Paare, beide stark unzugänglich] = 0.05347 ≤ E[#Paare, a(F_A^c) < q + h] = 0.18444   ok
+      q = 0.7:  E[#Paare, beide stark unzugänglich] = 0.29941 ≤ E[#Paare, a(F_A^c) < q + h] = 0.29941   ok
+      q = 0.9:  E[#Paare, beide stark unzugänglich] = 1.56871 ≤ E[#Paare, a(F_A^c) < q + h] = 1.56871   ok
+Gesamt: alle Prüfungen bestanden
+
+== python3 pruef_unzugaenglich.py --N 4 --lam 0.7
+L = 6, N = 4, beta = 4, Scheibe = 2 Schritte, lam = 0.7
+geschlossene Geschichten: 14163, Z_N = 1509.713558
+(1) ein Stück:  E[Σ_p 1/a_p] = 6.6738330125 = Σ Z^(p frei)[a>0]/Z_N = 6.6738330125 (relativer Fehler 2.2e-13)  ≤  R1 = Σ Z^(p frei)/Z_N = 29.559783
+(2) Paare:      E[Σ_A 1/Xi_A] = 16.3608983370 = Σ Z^(A frei)[Xi>0]/Z_N = 16.3608983370 (relativer Fehler 1.2e-13)  ≤  R2 = Σ Z^(A frei)/Z_N = 139.658924
+(3) Kippungleichung:
+      q = 0.3:  E[#Stücke mit a < q] = 0.00000 ≤ q·R1 = 8.86793;   E[#Paare, beide a(F_A^c) < q] = 0.00000 ≤ q²·R2 = 12.56930   ok
+      q = 0.5:  E[#Stücke mit a < q] = 0.63394 ≤ q·R1 = 14.77989;   E[#Paare, beide a(F_A^c) < q] = 0.08287 ≤ q²·R2 = 34.91473   ok
+      q = 0.7:  E[#Stücke mit a < q] = 1.87107 ≤ q·R1 = 20.69185;   E[#Paare, beide a(F_A^c) < q] = 0.45810 ≤ q²·R2 = 68.43287   ok
+      q = 0.9:  E[#Stücke mit a < q] = 3.80112 ≤ q·R1 = 26.60380;   E[#Paare, beide a(F_A^c) < q] = 3.42046 ≤ q²·R2 = 113.12373   ok
+(4) Entkopplung: verletzt in 0 Fällen (größte Treffwahrscheinlichkeit h = 0.667)
+      q = 0.3:  E[#Paare, beide stark unzugänglich] = 0.00000 ≤ E[#Paare, a(F_A^c) < q + h] = 0.00000   ok
+      q = 0.5:  E[#Paare, beide stark unzugänglich] = 0.33180 ≤ E[#Paare, a(F_A^c) < q + h] = 0.41588   ok
+      q = 0.7:  E[#Paare, beide stark unzugänglich] = 1.25716 ≤ E[#Paare, a(F_A^c) < q + h] = 1.25716   ok
+      q = 0.9:  E[#Paare, beide stark unzugänglich] = 5.40336 ≤ E[#Paare, a(F_A^c) < q + h] = 5.40336   ok
+Gesamt: alle Prüfungen bestanden
+
+== python3 pruef_unzugaenglich.py --N 2 --lam 0.9
+L = 6, N = 2, beta = 4, Scheibe = 2 Schritte, lam = 0.9
+geschlossene Geschichten: 14163, Z_N = 6930.334952
+(1) ein Stück:  E[Σ_p 1/a_p] = 2.5384875317 = Σ Z^(p frei)[a>0]/Z_N = 2.5384875317 (relativer Fehler 9.5e-14)  ≤  R1 = Σ Z^(p frei)/Z_N = 3.475097
+(2) Paare:      E[Σ_A 1/Xi_A] = 1.5541957467 = Σ Z^(A frei)[Xi>0]/Z_N = 1.5541957467 (relativer Fehler 6.0e-14)  ≤  R2 = Σ Z^(A frei)/Z_N = 1.737549
+(3) Kippungleichung:
+      q = 0.3:  E[#Stücke mit a < q] = 0.00000 ≤ q·R1 = 1.04253;   E[#Paare, beide a(F_A^c) < q] = 0.00000 ≤ q²·R2 = 0.15638   ok
+      q = 0.5:  E[#Stücke mit a < q] = 0.07566 ≤ q·R1 = 1.73755;   E[#Paare, beide a(F_A^c) < q] = 0.00000 ≤ q²·R2 = 0.43439   ok
+      q = 0.7:  E[#Stücke mit a < q] = 0.56367 ≤ q·R1 = 2.43257;   E[#Paare, beide a(F_A^c) < q] = 0.00000 ≤ q²·R2 = 0.85140   ok
+      q = 0.9:  E[#Stücke mit a < q] = 0.74852 ≤ q·R1 = 3.12759;   E[#Paare, beide a(F_A^c) < q] = 0.00000 ≤ q²·R2 = 1.40741   ok
+(4) Entkopplung: verletzt in 0 Fällen (größte Treffwahrscheinlichkeit h = 0.667)
+      q = 0.3:  E[#Paare, beide stark unzugänglich] = 0.00000 ≤ E[#Paare, a(F_A^c) < q + h] = 0.00000   ok
+      q = 0.5:  E[#Paare, beide stark unzugänglich] = 0.00787 ≤ E[#Paare, a(F_A^c) < q + h] = 0.00787   ok
+      q = 0.7:  E[#Paare, beide stark unzugänglich] = 0.11872 ≤ E[#Paare, a(F_A^c) < q + h] = 0.11872   ok
+      q = 0.9:  E[#Paare, beide stark unzugänglich] = 0.20495 ≤ E[#Paare, a(F_A^c) < q + h] = 0.20495   ok
+Gesamt: alle Prüfungen bestanden
+
+== python3 pruef_unzugaenglich.py --N 3 --lam 0.35
+L = 6, N = 3, beta = 4, Scheibe = 2 Schritte, lam = 0.35
+geschlossene Geschichten: 65542, Z_N = 154.089120
+(1) ein Stück:  E[Σ_p 1/a_p] = 3.3253479534 = Σ Z^(p frei)[a>0]/Z_N = 3.3253479534 (relativer Fehler 1.6e-13)  ≤  R1 = Σ Z^(p frei)/Z_N = 4.775236
+(2) Paare:      E[Σ_A 1/Xi_A] = 3.6677184280 = Σ Z^(A frei)[Xi>0]/Z_N = 3.6677184280 (relativer Fehler 6.7e-14)  ≤  R2 = Σ Z^(A frei)/Z_N = 5.847117
+(3) Kippungleichung:
+      q = 0.3:  E[#Stücke mit a < q] = 0.00015 ≤ q·R1 = 1.43257;   E[#Paare, beide a(F_A^c) < q] = 0.00000 ≤ q²·R2 = 0.52624   ok
+      q = 0.5:  E[#Stücke mit a < q] = 0.06181 ≤ q·R1 = 2.38762;   E[#Paare, beide a(F_A^c) < q] = 0.00074 ≤ q²·R2 = 1.46178   ok
+      q = 0.7:  E[#Stücke mit a < q] = 0.10815 ≤ q·R1 = 3.34267;   E[#Paare, beide a(F_A^c) < q] = 0.00445 ≤ q²·R2 = 2.86509   ok
+      q = 0.9:  E[#Stücke mit a < q] = 0.35360 ≤ q·R1 = 4.29771;   E[#Paare, beide a(F_A^c) < q] = 0.00927 ≤ q²·R2 = 4.73616   ok
+(4) Entkopplung: verletzt in 0 Fällen (größte Treffwahrscheinlichkeit h = 0.891)
+      q = 0.3:  E[#Paare, beide stark unzugänglich] = 0.00000 ≤ E[#Paare, a(F_A^c) < q + h] = 0.00010   ok
+      q = 0.5:  E[#Paare, beide stark unzugänglich] = 0.01820 ≤ E[#Paare, a(F_A^c) < q + h] = 0.02184   ok
+      q = 0.7:  E[#Paare, beide stark unzugänglich] = 0.03085 ≤ E[#Paare, a(F_A^c) < q + h] = 0.03085   ok
+      q = 0.9:  E[#Paare, beide stark unzugänglich] = 0.05806 ≤ E[#Paare, a(F_A^c) < q + h] = 0.05806   ok
+Gesamt: alle Prüfungen bestanden
+

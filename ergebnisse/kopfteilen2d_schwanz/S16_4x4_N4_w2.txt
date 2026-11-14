@@ -1,0 +1,9 @@
+Gitter 4×4, Zellen 2×2 (2×2), N=4 (m = 1.00 je Zelle), S=16, w=2, lam=0.7, Abweg=ball R=3, Querschritt=True, locker=True, Züge [(0, 0), (1, 0), (0, 1), (1, 1)]  [Aufbau 0 s]
+  mc: Proben 63, angenommen 55, |ν| = 0.8730, ∫f² = |ν|·E[f] = 1.588 (E[f|ang.] = 1.819 ± 0.33), Prüffehler Σ_K f_K gegen f = 2.2e-14  [1191 s]
+       K = 1: Anteil A(K)/∫f² = 0.5035 ± 0.1150;  Fortsetzung A(>K)/A(≥K) = 0.4965
+       K = 2: Anteil A(K)/∫f² = 0.3059 ± 0.0485;  Fortsetzung A(>K)/A(≥K) = 0.3839
+       K = 3: Anteil A(K)/∫f² = 0.1906 ± 0.0316;  Fortsetzung A(>K)/A(≥K) = 0.0000
+       Schwanz K_T = 1: Anteil = 0.89834 ± 0.15473;  Fortsetzung = 0.10166
+       Schwanz K_T = 2: Anteil = 0.07105 ± 0.01797;  Fortsetzung = 0.30108
+       Schwanz K_T = 3: Anteil = 0.03061 ± 0.00710;  Fortsetzung = 0.00000
+       gemeinsam (K, K_T): (1,1): 0.4554, (1,2): 0.0381, (1,3): 0.0100, (2,1): 0.2729, (2,2): 0.0330, (3,1): 0.1700, (3,3): 0.0206

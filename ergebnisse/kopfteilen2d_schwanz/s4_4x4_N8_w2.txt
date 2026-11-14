@@ -1,0 +1,93 @@
+Gitter 4×4, Zellen 2×2 (2×2), N=8 (m = 2.00 je Zelle), S=8, w=2, lam=0.7, Abweg=ball R=3, Querschritt=True, locker=True, Züge [(0, 0), (1, 0), (0, 1), (1, 1)]  [Aufbau 2 s]
+   .. Proben 1000, angenommen 460, |ν| = 0.4600, ∫f² = |ν|·E[f] = 1.865 (E[f|ang.] = 4.055 ± 0.42), Prüffehler Σ_K f_K gegen f = 4.4e-16  [100 s]
+       K = 1: Anteil A(K)/∫f² = 0.4961 ± 0.0463;  Fortsetzung A(>K)/A(≥K) = 0.5039
+       K = 2: Anteil A(K)/∫f² = 0.3207 ± 0.0603;  Fortsetzung A(>K)/A(≥K) = 0.3635
+       K = 3: Anteil A(K)/∫f² = 0.1832 ± 0.0330;  Fortsetzung A(>K)/A(≥K) = -0.0000
+       Schwanz K_T = 1: Anteil = 0.81443 ± 0.08718;  Fortsetzung = 0.18557
+       Schwanz K_T = 2: Anteil = 0.13147 ± 0.01706;  Fortsetzung = 0.29153
+       Schwanz K_T = 3: Anteil = 0.05410 ± 0.00684;  Fortsetzung = -0.00000
+   .. Proben 2000, angenommen 878, |ν| = 0.4390, ∫f² = |ν|·E[f] = 1.796 (E[f|ang.] = 4.091 ± 0.28), Prüffehler Σ_K f_K gegen f = 4.4e-16  [184 s]
+       K = 1: Anteil A(K)/∫f² = 0.5188 ± 0.0372;  Fortsetzung A(>K)/A(≥K) = 0.4812
+       K = 2: Anteil A(K)/∫f² = 0.3090 ± 0.0359;  Fortsetzung A(>K)/A(≥K) = 0.3580
+       K = 3: Anteil A(K)/∫f² = 0.1723 ± 0.0206;  Fortsetzung A(>K)/A(≥K) = -0.0000
+       Schwanz K_T = 1: Anteil = 0.79924 ± 0.05593;  Fortsetzung = 0.20076
+       Schwanz K_T = 2: Anteil = 0.14110 ± 0.01274;  Fortsetzung = 0.29719
+       Schwanz K_T = 3: Anteil = 0.05967 ± 0.00637;  Fortsetzung = -0.00000
+   .. Proben 3000, angenommen 1323, |ν| = 0.4410, ∫f² = |ν|·E[f] = 1.836 (E[f|ang.] = 4.163 ± 0.22), Prüffehler Σ_K f_K gegen f = 4.4e-16  [274 s]
+       K = 1: Anteil A(K)/∫f² = 0.5084 ± 0.0283;  Fortsetzung A(>K)/A(≥K) = 0.4916
+       K = 2: Anteil A(K)/∫f² = 0.3194 ± 0.0272;  Fortsetzung A(>K)/A(≥K) = 0.3502
+       K = 3: Anteil A(K)/∫f² = 0.1722 ± 0.0164;  Fortsetzung A(>K)/A(≥K) = -0.0000
+       Schwanz K_T = 1: Anteil = 0.80245 ± 0.04359;  Fortsetzung = 0.19755
+       Schwanz K_T = 2: Anteil = 0.13875 ± 0.00933;  Fortsetzung = 0.29763
+       Schwanz K_T = 3: Anteil = 0.05880 ± 0.00506;  Fortsetzung = -0.00000
+   .. Proben 4000, angenommen 1763, |ν| = 0.4407, ∫f² = |ν|·E[f] = 1.836 (E[f|ang.] = 4.166 ± 0.23), Prüffehler Σ_K f_K gegen f = 4.4e-16  [370 s]
+       K = 1: Anteil A(K)/∫f² = 0.5044 ± 0.0236;  Fortsetzung A(>K)/A(≥K) = 0.4956
+       K = 2: Anteil A(K)/∫f² = 0.3254 ± 0.0380;  Fortsetzung A(>K)/A(≥K) = 0.3434
+       K = 3: Anteil A(K)/∫f² = 0.1702 ± 0.0155;  Fortsetzung A(>K)/A(≥K) = 0.0000
+       Schwanz K_T = 1: Anteil = 0.80746 ± 0.04698;  Fortsetzung = 0.19254
+       Schwanz K_T = 2: Anteil = 0.13419 ± 0.00799;  Fortsetzung = 0.30307
+       Schwanz K_T = 3: Anteil = 0.05836 ± 0.00440;  Fortsetzung = -0.00000
+   .. Proben 5000, angenommen 2208, |ν| = 0.4416, ∫f² = |ν|·E[f] = 1.828 (E[f|ang.] = 4.141 ± 0.2), Prüffehler Σ_K f_K gegen f = 4.4e-16  [472 s]
+       K = 1: Anteil A(K)/∫f² = 0.5071 ± 0.0217;  Fortsetzung A(>K)/A(≥K) = 0.4929
+       K = 2: Anteil A(K)/∫f² = 0.3241 ± 0.0316;  Fortsetzung A(>K)/A(≥K) = 0.3424
+       K = 3: Anteil A(K)/∫f² = 0.1688 ± 0.0139;  Fortsetzung A(>K)/A(≥K) = 0.0000
+       Schwanz K_T = 1: Anteil = 0.80070 ± 0.04057;  Fortsetzung = 0.19930
+       Schwanz K_T = 2: Anteil = 0.13869 ± 0.00751;  Fortsetzung = 0.30409
+       Schwanz K_T = 3: Anteil = 0.06061 ± 0.00485;  Fortsetzung = 0.00000
+   .. Proben 6000, angenommen 2652, |ν| = 0.4420, ∫f² = |ν|·E[f] = 1.84 (E[f|ang.] = 4.162 ± 0.18), Prüffehler Σ_K f_K gegen f = 4.4e-16  [564 s]
+       K = 1: Anteil A(K)/∫f² = 0.5092 ± 0.0196;  Fortsetzung A(>K)/A(≥K) = 0.4908
+       K = 2: Anteil A(K)/∫f² = 0.3218 ± 0.0274;  Fortsetzung A(>K)/A(≥K) = 0.3444
+       K = 3: Anteil A(K)/∫f² = 0.1690 ± 0.0129;  Fortsetzung A(>K)/A(≥K) = 0.0000
+       Schwanz K_T = 1: Anteil = 0.79793 ± 0.03602;  Fortsetzung = 0.20207
+       Schwanz K_T = 2: Anteil = 0.14100 ± 0.00714;  Fortsetzung = 0.30222
+       Schwanz K_T = 3: Anteil = 0.06107 ± 0.00445;  Fortsetzung = -0.00000
+   .. Proben 7000, angenommen 3083, |ν| = 0.4404, ∫f² = |ν|·E[f] = 1.834 (E[f|ang.] = 4.163 ± 0.18), Prüffehler Σ_K f_K gegen f = 4.4e-16  [654 s]
+       K = 1: Anteil A(K)/∫f² = 0.5088 ± 0.0182;  Fortsetzung A(>K)/A(≥K) = 0.4912
+       K = 2: Anteil A(K)/∫f² = 0.3168 ± 0.0242;  Fortsetzung A(>K)/A(≥K) = 0.3552
+       K = 3: Anteil A(K)/∫f² = 0.1745 ± 0.0170;  Fortsetzung A(>K)/A(≥K) = -0.0000
+       Schwanz K_T = 1: Anteil = 0.79792 ± 0.03509;  Fortsetzung = 0.20208
+       Schwanz K_T = 2: Anteil = 0.14137 ± 0.00652;  Fortsetzung = 0.30046
+       Schwanz K_T = 3: Anteil = 0.06072 ± 0.00425;  Fortsetzung = 0.00000
+   .. Proben 8000, angenommen 3512, |ν| = 0.4390, ∫f² = |ν|·E[f] = 1.888 (E[f|ang.] = 4.3 ± 0.2), Prüffehler Σ_K f_K gegen f = 4.4e-16  [744 s]
+       K = 1: Anteil A(K)/∫f² = 0.4976 ± 0.0180;  Fortsetzung A(>K)/A(≥K) = 0.5024
+       K = 2: Anteil A(K)/∫f² = 0.3298 ± 0.0286;  Fortsetzung A(>K)/A(≥K) = 0.3434
+       K = 3: Anteil A(K)/∫f² = 0.1725 ± 0.0152;  Fortsetzung A(>K)/A(≥K) = -0.0000
+       Schwanz K_T = 1: Anteil = 0.79910 ± 0.03796;  Fortsetzung = 0.20090
+       Schwanz K_T = 2: Anteil = 0.14106 ± 0.00733;  Fortsetzung = 0.29787
+       Schwanz K_T = 3: Anteil = 0.05984 ± 0.00392;  Fortsetzung = -0.00000
+   .. Proben 9000, angenommen 3962, |ν| = 0.4402, ∫f² = |ν|·E[f] = 1.859 (E[f|ang.] = 4.222 ± 0.18), Prüffehler Σ_K f_K gegen f = 4.4e-16  [848 s]
+       K = 1: Anteil A(K)/∫f² = 0.4976 ± 0.0169;  Fortsetzung A(>K)/A(≥K) = 0.5024
+       K = 2: Anteil A(K)/∫f² = 0.3267 ± 0.0261;  Fortsetzung A(>K)/A(≥K) = 0.3497
+       K = 3: Anteil A(K)/∫f² = 0.1757 ± 0.0143;  Fortsetzung A(>K)/A(≥K) = -0.0000
+       Schwanz K_T = 1: Anteil = 0.79577 ± 0.03503;  Fortsetzung = 0.20423
+       Schwanz K_T = 2: Anteil = 0.14279 ± 0.00684;  Fortsetzung = 0.30087
+       Schwanz K_T = 3: Anteil = 0.06145 ± 0.00388;  Fortsetzung = -0.00000
+   .. Proben 10000, angenommen 4414, |ν| = 0.4414, ∫f² = |ν|·E[f] = 1.854 (E[f|ang.] = 4.201 ± 0.17), Prüffehler Σ_K f_K gegen f = 4.4e-16  [946 s]
+       K = 1: Anteil A(K)/∫f² = 0.4973 ± 0.0158;  Fortsetzung A(>K)/A(≥K) = 0.5027
+       K = 2: Anteil A(K)/∫f² = 0.3215 ± 0.0238;  Fortsetzung A(>K)/A(≥K) = 0.3605
+       K = 3: Anteil A(K)/∫f² = 0.1812 ± 0.0154;  Fortsetzung A(>K)/A(≥K) = -0.0000
+       Schwanz K_T = 1: Anteil = 0.78889 ± 0.03222;  Fortsetzung = 0.21111
+       Schwanz K_T = 2: Anteil = 0.14343 ± 0.00643;  Fortsetzung = 0.32056
+       Schwanz K_T = 3: Anteil = 0.06767 ± 0.00698;  Fortsetzung = -0.00000
+   .. Proben 11000, angenommen 4846, |ν| = 0.4405, ∫f² = |ν|·E[f] = 1.829 (E[f|ang.] = 4.152 ± 0.16), Prüffehler Σ_K f_K gegen f = 4.4e-16  [1038 s]
+       K = 1: Anteil A(K)/∫f² = 0.4990 ± 0.0150;  Fortsetzung A(>K)/A(≥K) = 0.5010
+       K = 2: Anteil A(K)/∫f² = 0.3228 ± 0.0223;  Fortsetzung A(>K)/A(≥K) = 0.3557
+       K = 3: Anteil A(K)/∫f² = 0.1782 ± 0.0143;  Fortsetzung A(>K)/A(≥K) = -0.0000
+       Schwanz K_T = 1: Anteil = 0.78700 ± 0.03012;  Fortsetzung = 0.21300
+       Schwanz K_T = 2: Anteil = 0.14545 ± 0.00610;  Fortsetzung = 0.31715
+       Schwanz K_T = 3: Anteil = 0.06755 ± 0.00649;  Fortsetzung = 0.00000
+   .. Proben 12000, angenommen 5268, |ν| = 0.4390, ∫f² = |ν|·E[f] = 1.823 (E[f|ang.] = 4.154 ± 0.15), Prüffehler Σ_K f_K gegen f = 4.4e-16  [1155 s]
+       K = 1: Anteil A(K)/∫f² = 0.5032 ± 0.0150;  Fortsetzung A(>K)/A(≥K) = 0.4968
+       K = 2: Anteil A(K)/∫f² = 0.3191 ± 0.0208;  Fortsetzung A(>K)/A(≥K) = 0.3578
+       K = 3: Anteil A(K)/∫f² = 0.1777 ± 0.0134;  Fortsetzung A(>K)/A(≥K) = 0.0000
+       Schwanz K_T = 1: Anteil = 0.78638 ± 0.02846;  Fortsetzung = 0.21362
+       Schwanz K_T = 2: Anteil = 0.14527 ± 0.00595;  Fortsetzung = 0.31995
+       Schwanz K_T = 3: Anteil = 0.06835 ± 0.00622;  Fortsetzung = -0.00000
+  mc: Proben 12221, angenommen 5349, |ν| = 0.4377, ∫f² = |ν|·E[f] = 1.811 (E[f|ang.] = 4.137 ± 0.15), Prüffehler Σ_K f_K gegen f = 4.4e-16  [1188 s]
+       K = 1: Anteil A(K)/∫f² = 0.5041 ± 0.0148;  Fortsetzung A(>K)/A(≥K) = 0.4959
+       K = 2: Anteil A(K)/∫f² = 0.3188 ± 0.0206;  Fortsetzung A(>K)/A(≥K) = 0.3571
+       K = 3: Anteil A(K)/∫f² = 0.1771 ± 0.0133;  Fortsetzung A(>K)/A(≥K) = -0.0000
+       Schwanz K_T = 1: Anteil = 0.78594 ± 0.02817;  Fortsetzung = 0.21406
+       Schwanz K_T = 2: Anteil = 0.14574 ± 0.00590;  Fortsetzung = 0.31915
+       Schwanz K_T = 3: Anteil = 0.06832 ± 0.00616;  Fortsetzung = 0.00000
+       gemeinsam (K, K_T): (1,1): 0.4305, (1,2): 0.0607, (1,3): 0.0129, (2,1): 0.2337, (2,2): 0.0851, (3,1): 0.1217, (3,3): 0.0554

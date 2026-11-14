@@ -1,0 +1,15 @@
+L=4 N=2 δ=1.0: E=-7.5696
+   θ=0.25:  E e^(θΔx) = 1.059400   Schranke frei = 1.064842   Verhältnis 0.9949
+   θ=0.50:  E e^(θΔx) = 1.264611   Schranke frei = 1.290787   Verhältnis 0.9797
+   θ=1.00:  E e^(θΔx) = 2.731076   Schranke frei = 2.962879   Verhältnis 0.9218
+   θ=2.00:  E e^(θΔx) = 184.368582   Schranke frei = 250.733691   Verhältnis 0.7353
+L=4 N=3 δ=2.0: E=-10.6647
+   θ=0.25:  E e^(θΔx) = 1.110101   Schranke frei = 1.133888   Verhältnis 0.9790
+   θ=0.50:  E e^(θΔx) = 1.530929   Schranke frei = 1.666130   Verhältnis 0.9189
+   θ=1.00:  E e^(θΔx) = 6.279070   Schranke frei = 8.778649   Verhältnis 0.7153
+   θ=2.00:  E e^(θΔx) = 17941.560018   Schranke frei = 62867.383591   Verhältnis 0.2854
+L=5 N=2 δ=3.0: E=-7.7514
+   θ=0.25:  E e^(θΔx) = 1.193724   Schranke frei = 1.207411   Verhältnis 0.9887
+   θ=0.50:  E e^(θΔx) = 2.056657   Schranke frei = 2.150619   Verhältnis 0.9563
+   θ=1.00:  E e^(θΔx) = 21.995500   Schranke frei = 26.010071   Verhältnis 0.8457
+   θ=2.00:  E e^(θΔx) = 8748660.046830   Schranke frei = 15762971.104763   Verhältnis 0.5550
