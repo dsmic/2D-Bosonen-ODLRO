@@ -1,5 +1,11 @@
 # ODLRO harter Bosonen im 2D-Grundzustand abseits halber Füllung
 
+
+Author: Detlef Schmicker mit Claude
+
+Das Projekt ist im Wesentlichen ein Versuch, wie man mit einer KI große Projekte bearbeiten kann. OpenAI hat das Projekt für 3D in der großen Beweissammlung, Claude hat den Beweisansatz ohne dass ich auf OpenAI hingewiesen habe nicht gefunden.
+Physikalisch ist die Lochdichte, für die der Beweis gilt, verschwindend gering (10 hoch minus ein paar hundert oder mehr), also irrelevant:) Zwischendurch hatte ich Promozugang zu Fable 5.2 alles andere ist Opus 5.5 Extra High. Alles wurde mit einem gewöhnlichen Pro Abo in VSCode mit dem Claude Plugin bearbeitet.
+
 Begonnen 2026-11-09. Kennzeichnung wie in [z2/stufe_a.md](z2/stufe_a.md): [S] streng, [Lit] Literatur, [B] Beweisskizze, [N] numerisch, [H] Hypothese, [L] Lücke.
 
 ## Ziel
