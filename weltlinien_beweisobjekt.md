@@ -60,7 +60,7 @@ G\_k ist vollständig monoton (Mischung fallender Exponentialfunktionen). Die ei
 N₀/N = (1 − ρ + 1/M) · ⟨F⟩_w,     ⟨F⟩_w = Σ_S w_S F_S / Σ_S w_S
 ```
 
-ODLRO heißt: Die bedingte Wellenfunktion eines Teilchens ist im w-Mittel über einen festen Bruchteil der Leerstellen ausgebreitet. Für Stufe A ist das das Kriterium aus [../z2/stufe\_a.md](../z2/stufe_a.md) §32; bei Bosonen gilt es als Gleichung, ohne den Faktor 1 − 23ρ\_b.
+ODLRO heißt: Die bedingte Wellenfunktion eines Teilchens ist im w-Mittel über einen festen Bruchteil der Leerstellen ausgebreitet. Für Stufe A ist das das Kriterium aus [z2/stufe\_a.md](z2/stufe_a.md) §32; bei Bosonen gilt es als Gleichung, ohne den Faktor 1 − 23ρ\_b.
 
 - [N] 4×4, N = 4: beide Seiten 0,78233 (14 Stellen).
 

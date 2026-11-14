@@ -20,7 +20,7 @@ import time
 import numpy as np
 
 HIER = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HIER, "..", "z2", "zweipaar_graph"))
+sys.path.insert(0, os.path.join(HIER, "z2", "zweipaar_graph"))
 import falk_bruch as fb  # noqa: E402
 from einpunkt_kriterium import perron  # noqa: E402
 

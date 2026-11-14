@@ -1,28 +1,28 @@
 # ODLRO harter Bosonen im 2D-Grundzustand abseits halber Füllung
 
-Begonnen 2026-11-09. Kennzeichnung wie in [../z2/stufe_a.md](../z2/stufe_a.md): [S] streng, [Lit] Literatur, [B] Beweisskizze, [N] numerisch, [H] Hypothese, [L] Lücke.
+Begonnen 2026-11-09. Kennzeichnung wie in [z2/stufe_a.md](z2/stufe_a.md): [S] streng, [Lit] Literatur, [B] Beweisskizze, [N] numerisch, [H] Hypothese, [L] Lücke.
 
 ## Ziel
 
 Ein strenger Beweis: Der Grundzustand harter Bosonen auf ℤ² mit Nächstnachbar-Hüpfen, H = −J Σ(b_x†b_y + h.c.), hat bei jeder Dichte 0 < ρ < 1 ODLRO. Bewiesen ist das nur bei ρ = ½ [Lit]; sonst ist es offen und gilt als großes Problem der mathematischen Physik. Die Numerik spricht eindeutig für die Aussage [N].
 
-Harte Bosonen sind das Versuchsfeld für Stufe A: Der schwierige Kern (Kohärenz über große Abstände im wechselwirkenden Grundzustand) ist derselbe, alles andere ist einfacher. Siehe [../z2/stufe_a.md](../z2/stufe_a.md) §32 und [../z2/odlro_chatgpt_pruefung.md](../z2/odlro_chatgpt_pruefung.md).
+Harte Bosonen sind das Versuchsfeld für Stufe A: Der schwierige Kern (Kohärenz über große Abstände im wechselwirkenden Grundzustand) ist derselbe, alles andere ist einfacher. Siehe [z2/stufe_a.md](z2/stufe_a.md) §32 und [z2/odlro_chatgpt_pruefung.md](z2/odlro_chatgpt_pruefung.md).
 
 ## Ausgangslage
 
 - [Lit] ρ = ½: Kennedy–Lieb–Shastry 1988 (XY-Modell, Grundzustandsordnung, d ≥ 2), Kubo–Kishi 1988; Aizenman–Lieb–Seiringer–Solovej–Yngvason 2004 (Gitter-Bosegas, halbe Füllung „dictated by our method of proof“). Methode: Reflexionspositivität → Infrarotschranke → Falk–Bruch + Summenregel.
 - [B] Warum nur ρ = ½: Für die Reflexionspositivität muss das XY-Modell in die reelle (S¹, S³)-Ebene gedreht werden; μ koppelt dann an das imaginäre S², und die Spiegelung (mit komplexer Konjugation) kehrt sein Vorzeichen auf einer Hälfte um.
-- [N] Unsere Befunde (2026-11-09, [../z2/zweipaar_graph/README.md](../z2/zweipaar_graph/README.md)):
+- [N] Unsere Befunde (2026-11-09, [z2/zweipaar_graph/README.md](z2/zweipaar_graph/README.md)):
   1. Die Infrarotschranke χ(k)·E(k) ≤ 1 gilt numerisch bei allen Dichten (4×4–8×8, max. 0,98 bei kleinster Dichte), auch ohne Reflexionspositivität.
   2. Die Kette Falk–Bruch + Summenregel + Infrarotschranke ist im unendlichen Volumen nur bei ρ = ½ knapp positiv (+0,0002 je Platz) und sonst negativ (−0,02 bis −0,04). Für ρ → 0 wird c(k) = E(k), die Schranke genau 0.
   3. Also fehlen abseits ρ = ½ zwei Dinge: eine Infrarotschranke ohne Reflexionspositivität und eine schärfere Ungleichungskette.
 
 ## Werkzeuge
 
-- [gitter_bosonen.py](gitter_bosonen.py): Quadratgitter im Format von `z2/weltlinien/gitter.py`; der Wurm ([../z2/weltlinien/wurm_nb4.py](../z2/weltlinien/wurm_nb4.py)) wird unverändert importiert (leere Ausschlusslisten = harte Bosonen).
+- [gitter_bosonen.py](gitter_bosonen.py): Quadratgitter im Format von `z2/weltlinien/gitter.py`; der Wurm ([z2/weltlinien/wurm_nb4.py](z2/weltlinien/wurm_nb4.py)) wird unverändert importiert (leere Ausschlusslisten = harte Bosonen).
 - [scan_bos.py](scan_bos.py): Wurm-Treiber, großkanonisch, μ auf Zieldichte eingeregelt (`--rho`) oder fest (`--mu`). Misst E, N, Windung, g(r) bei r = 0, (L/2, 0), (L/2, L/2), volle Histogramme gleichzeitig (`hist_eq`) und zeitintegriert (`hist_all`, ω = 0).
 - [pruef_exakt.py](pruef_exakt.py): exakte großkanonische Werte bei endlicher Temperatur (volle Diagonalisierung, L = 4).
-- Exakte T = 0-Rechnungen und Kettentests: [../z2/zweipaar_graph/falk_bruch.py](../z2/zweipaar_graph/falk_bruch.py), [../z2/zweipaar_graph/ir_integral.py](../z2/zweipaar_graph/ir_integral.py).
+- Exakte T = 0-Rechnungen und Kettentests: [z2/zweipaar_graph/falk_bruch.py](z2/zweipaar_graph/falk_bruch.py), [z2/zweipaar_graph/ir_integral.py](z2/zweipaar_graph/ir_integral.py).
 
 ## Prüfung des Wurms (4×4, β = 4, μ = −2,3, zwei Seeds à 7 min) [N]
 
@@ -36,7 +36,7 @@ Harte Bosonen sind das Versuchsfeld für Stufe A: Der schwierige Kern (Kohärenz
 
 - Alles stimmt bis auf g(0): Die gleichzeitige Korrelation am selben Platz wird wegen des endlichen Zeitfensters (w = 0,05) systematisch 2,5 % zu klein gemessen; bei r ≠ 0 ist der Effekt ≤ 0,5 %.
 - **Regel:** g(r) durch die gemessene Dichte ρ normieren (g(0) = ⟨n⟩ = ρ exakt), nicht durch das gemessene g(0). Damit g(L/2,0)/ρ = 0,749 (exakt 0,751), g(L/2,L/2)/ρ = 0,706 (exakt 0,706).
-- Rückwirkung auf Stufe A: n₀ war um 1–3 % zu hoch; mit ρ normiert n₀ ≈ 0,095–0,100 ([../z2/weltlinien/auswertung_null.py](../z2/weltlinien/auswertung_null.py) gibt beide Werte aus).
+- Rückwirkung auf Stufe A: n₀ war um 1–3 % zu hoch; mit ρ normiert n₀ ≈ 0,095–0,100 ([z2/weltlinien/auswertung_null.py](z2/weltlinien/auswertung_null.py) gibt beide Werte aus).
 
 ## Programm
 
@@ -85,7 +85,7 @@ Kanonisch, ohne μ (für k ≠ 0 steht A_kψ\_N senkrecht auf dem (N−1)-Grundz
 ⇒  n_k ≤ √(c⁻χ⁻) ≤ ρ √(C/E(k)),   n₀/N ≥ 1 − √C·J        [S, gegeben (I) und (II)]
 ```
 
-In 1D divergiert J logarithmisch; die Kette kann dort nichts beweisen (richtig, Lenard). Zahlen [N] ([../z2/zweipaar_graph/falk_bruch.py](../z2/zweipaar_graph/falk_bruch.py), Logs in `../z2/zweipaar_graph/ergebnisse/einseitig/`):
+In 1D divergiert J logarithmisch; die Kette kann dort nichts beweisen (richtig, Lenard). Zahlen [N] ([z2/zweipaar_graph/falk_bruch.py](z2/zweipaar_graph/falk_bruch.py), Logs in `z2/zweipaar_graph/ergebnisse/einseitig/`):
 
 | Fall                | ρ                     | max χ⁻E/ρ          | max χ⁺E/(1−ρ)      | C = max c⁻/ρ       |
 |---------------------|-----------------------|--------------------|--------------------|--------------------|
@@ -99,7 +99,7 @@ In 1D divergiert J logarithmisch; die Kette kann dort nichts beweisen (richtig, 
 - 1D: (I) wird bei ρ = 1/8 verletzt und die Verletzung wächst mit L. Ursache: Harte Bosonen in 1D sind freie Fermionen; Herausnehmen erzeugt ein Loch im Fermi-See, und Lochanregungen mit beliebig kleiner Energie gibt es für alle |k| < 2πρ. Genau dort ist χ⁻E/ρ ≈ 1 (Profil), oberhalb fällt es steil ab. (II) bleibt in 1D moderat.
 - Folgerung: (I) ist keine dimensionsunabhängige, rein lokale Ungleichung. Ein Beweis muss etwas typisch Zweidimensionales benutzen: das Fehlen eines weichen Kontinuums von Lochanregungen bei endlichem k. Physikalisch heißt das, dass Herausnehmen im Wesentlichen ein einzelnes Quasiteilchen erzeugt (Bogoliubov-Bild). Das liegt näher am Kern des Problems als erhofft. (II) wirkt dagegen generisch.
 
-**Übertrag auf Stufe A bei 7/8 [N] (2026-11-09,** [../z2/zweipaar_graph/einseitig_stufe_a.py](../z2/zweipaar_graph/einseitig_stufe_a.py)**):** Paare auf dem Mittelgitter, freie Paardispersion E(k) = 4 − 4cos(k_x/2)cos(k_y/2), J_A = 0,6428. 8×8, exakt:
+**Übertrag auf Stufe A bei 7/8 [N] (2026-11-09,** [z2/zweipaar_graph/einseitig_stufe_a.py](z2/zweipaar_graph/einseitig_stufe_a.py)**):** Paare auf dem Mittelgitter, freie Paardispersion E(k) = 4 − 4cos(k_x/2)cos(k_y/2), J_A = 0,6428. 8×8, exakt:
 
 | P       | ρ\_b  | n₀/P  | (I) max χ⁻E/ρ\_b | (II) C | 1 − √C·J_A | Kette mit exakten c⁻, χ⁻ je k |
 |---------|-------|-------|------------------|--------|------------|-------------------------------|
@@ -121,7 +121,7 @@ Mit C_w = 1/(10 M β) (Voreinstellung) ist K = 0,2 unabhängig von L und β. Die
 
 ## Spektrum des Herausnehmens; (I) ist falsch normiert (2026-11-09)
 
-[../z2/zweipaar_graph/spektral_entfernen.py](../z2/zweipaar_graph/spektral_entfernen.py): Lanczos-Spektrum von u_k = A_kψ im Sektor N−1 (exakt). Gibt niedrigste Anregung ε\_min mit Gewicht Z, harmonisches Mittel ε\_h = n_k/χ⁻ und χ⁻E/ρ je k [N].
+[z2/zweipaar_graph/spektral_entfernen.py](z2/zweipaar_graph/spektral_entfernen.py): Lanczos-Spektrum von u_k = A_kψ im Sektor N−1 (exakt). Gibt niedrigste Anregung ε\_min mit Gewicht Z, harmonisches Mittel ε\_h = n_k/χ⁻ und χ⁻E/ρ je k [N].
 
 - 2D: ε\_min/E fällt bis 0,63, aber nur bei großem k, wo Z ≈ 0,03 und n_k winzig ist. Das gewichtete ε\_h/E ist ≥ 0,69. Bei kleinem und mittlerem k ist Z = 0,84–1 (ein Quasiteilchen).
 - Korrektur zur 1D-Zeile oben: Die dort mit L wachsende Verletzung kam von μ in der Intervallmitte. Kanonisch ist (I) bei ρ = 1/8 etwa 1,4 und stabil (L = 24: 1,44; L = 32: 1,42). Ursache ist die große Verarmung n_k/ρ = 1,5–3,7 bei kleinen k (Quasi-Kondensat), nicht Fermi-See-Löcher bei großem k (dort Z → 0, aber n_k klein).

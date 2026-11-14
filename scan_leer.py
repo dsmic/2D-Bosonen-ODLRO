@@ -18,7 +18,7 @@ import numpy as np
 from numba import njit
 
 HIER = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HIER, '..', 'z2', 'weltlinien'))
+sys.path.insert(0, os.path.join(HIER, 'z2', 'weltlinien'))
 import wurm_nb4 as wn  # noqa: E402
 from gitter_bosonen import quadratgitter  # noqa: E402
 
