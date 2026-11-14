@@ -1,5 +1,7 @@
 # Kondensat im verdünnten 2D-Gitter-Bosegas: der Beweis zum Nachvollziehen
 
+Autor: Detlef Schmicker (mit Claude). Quellen, Skripte und Daten: <https://github.com/dsmic/2D-Bosonen-ODLRO>
+
 Tutorial-Fassung 2, 2026-11-10 (Zeitschleife statt Lücke). Grundlage sind das knappe [manuskript\_verduennt.md](manuskript_verduennt.md) mit allen Verweisen und das Arbeitsdokument [einpunkt\_zeitroute.md](einpunkt_zeitroute.md) (§1–§30, alle Herleitungen und Irrwege). Die Musterlösungen der Rechenübungen stehen in [tutorial\_uebungen.py](tutorial_uebungen.py) (nur numpy und scipy, Laufzeit wenige Sekunden), die Abbildungen erzeugt [abbildungen\_tutorial.py](abbildungen_tutorial.py).
 
 ## 0. Worum es geht
